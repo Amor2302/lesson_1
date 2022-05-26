@@ -1,6 +1,13 @@
-number = list(range(1, 101, 1))
-number = 0
+num = 0
 
-
-if number >= 5 and number <= 20:
-    print(number)
+for num in range(1, 101):
+    if 9 < num < 21:
+        print(num, 'процентов')
+    elif num % 10 == 0:
+        print(num, 'процентов')
+    elif num % 10 == 1:
+        print(num, 'процент')
+    elif 1 < num % 10 < 5:
+        print(num, 'процента')
+    else:
+        print(num, 'процентов')
