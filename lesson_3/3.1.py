@@ -1,7 +1,7 @@
 
 numbers = input('Введите число от 0 до 10 на английском языке ')
 
-num_translate = {
+function = {
     'zero': 'ноль',
     'one': 'один',
     'two': 'два',
@@ -15,5 +15,5 @@ num_translate = {
     'ten': 'десять'
 
 }
-temp = num_translate.get(numbers)
-print(temp)
+num_translate = function.get(numbers)
+print(num_translate)
